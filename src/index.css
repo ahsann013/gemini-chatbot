@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Navbar.css */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.no-data {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid;
+}
+
+button {
+  border: 0;
+  padding: 10px 30px;
+
+  color: white;
+}
+
+.aiWithActive {
+  background: rgb(24, 132, 227);
+  color: #ffffff;
+}
